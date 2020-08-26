@@ -1,0 +1,8 @@
+.course-container{
+    margin: 20px 100px;
+    display: flex;
+}
+.course-details{
+    width: 65%;
+    border-right: 2px solid lightgray;
+}

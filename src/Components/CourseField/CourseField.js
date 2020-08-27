@@ -10,7 +10,7 @@ const CourseField = (props) => {
             <h4>Course Title : {name}</h4>
             <h5>Instructor : {instructor}</h5>
             <h5>Price: $ {price}</h5>
-            <button className="btn-primary" onClick={() => props.handleAddCourse(props.course)}><FontAwesomeIcon icon={ faShoppingCart } /> Add to cart</button>
+            <button className="btn-outline-danger" onClick={() => props.handleAddCourse(props.course)}><FontAwesomeIcon icon={ faShoppingCart } /> Enroll Now</button>
         </div>
     );
 };

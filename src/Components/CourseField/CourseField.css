@@ -1,12 +1,16 @@
 .course-unit{
-    border: 2px solid #3b5249;
-    padding: 10px;
+    background-color: white;
+    padding: 20px;
     margin: 20px 0;
     margin-right: 50px;
     border-radius: 10px;
 }
+.course-unit:hover{
+    box-shadow: 0px 40px 80px rgba(0, 0, 0, 0.1);
+}
 .course-unit button{
+    margin-top: 10px;
     width: 180px;
-    height: 30px;
+    height: 40px;
     border-radius: 8px;
 }

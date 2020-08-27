@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import './CourseField.css';
 
 const CourseField = (props) => {
@@ -8,7 +10,7 @@ const CourseField = (props) => {
             <h4>Course Title : {name}</h4>
             <h5>Instructor : {instructor}</h5>
             <h5>Price: $ {price}</h5>
-            <button onClick={() => props.handleAddCourse(props.course)}>Add to cart</button>
+            <button className="btn-primary" onClick={() => props.handleAddCourse(props.course)}><FontAwesomeIcon icon={ faShoppingCart } /> Add to cart</button>
         </div>
     );
 };

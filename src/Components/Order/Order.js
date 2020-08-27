@@ -10,7 +10,7 @@ const Order = (props) => {
         <div className="order-box">
             <h3>Order Summary</h3>
             <p>Items ordered : {course.length}</p>
-            <p>Total price : {totalPrice}</p>
+            <p>Total price : $ {totalPrice}</p>
         </div>
     );
 };

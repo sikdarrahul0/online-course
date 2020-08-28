@@ -1,5 +1,45 @@
 const courseData = [
     {
+        name: 'IOS App Development',
+        instructor: 'Robiul Alam Robi',
+        price: 96
+    },
+    {
+        name: 'Complete Web Development (Node.js)',
+        instructor: 'Jhankar Mahbub',
+        price: 110
+    },
+    {
+        name: 'Complete Web Development (Asp.net)',
+        instructor: 'Manik Roy',
+        price: 28
+    },
+    {
+        name: 'Java programming language',
+        instructor: 'Tanim Shahriar Subeen',
+        price: 48
+    },
+    {
+        name: 'Learn Artificial Intelligence',
+        instructor: 'Nayeem Khan',
+        price: 78
+    },
+    {
+        name: 'Learn Data Mining',
+        instructor: 'Nayeem Khan',
+        price: 68
+    },
+    {
+        name: 'Angular - The Complete Guide',
+        instructor: 'Angela flu',
+        price: 38
+    },
+    {
+        name: 'React - The Complete Guide',
+        instructor: 'Jhankar Mahbub',
+        price: 48
+    },
+    {
         name: 'C programming language',
         instructor: 'Tanim Shahriar Subeen',
         price: 20
@@ -31,48 +71,8 @@ const courseData = [
     },
     {
         name: 'Android App Development',
-        instructor: 'Aidul Islam',
+        instructor: 'Abir Islam',
         price: 78
-    },
-    {
-        name: 'IOS App Development',
-        instructor: 'Robiul Alam Robi',
-        price: 96
-    },
-    {
-        name: 'Complete Web Development (Node.js)',
-        instructor: 'Jhankar Mahbub',
-        price: 110
-    },
-    {
-        name: 'Complete Web Development (Asp.net)',
-        instructor: 'Manik Roy',
-        price: 28
-    },
-    {
-        name: 'Java programming language',
-        instructor: 'Tanim Shahriar Subeen',
-        price: 48
-    },
-    {
-        name: 'Learn Artificial Intelligence',
-        instructor: 'Shahidul Islam Khan',
-        price: 78
-    },
-    {
-        name: 'Learn Data Mining',
-        instructor: 'Shahidul Islam Khan',
-        price: 68
-    },
-    {
-        name: 'Angular - The Complete Guide',
-        instructor: 'Angela flu',
-        price: 38
-    },
-    {
-        name: 'React - The Complete Guide',
-        instructor: 'Jhankar Mahbub',
-        price: 48
     }
 ];
 
